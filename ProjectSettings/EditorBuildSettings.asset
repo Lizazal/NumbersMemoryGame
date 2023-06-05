@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartGame.unity
+    guid: 427ae46ff50f2ce499b986a49ac615ff
+  - enabled: 1
+    path: Assets/Scenes/Records.unity
+    guid: 488d3f63d7dc5e242aa6780214e4633f
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 1008370b9074eb8489cfddd77602d408
+  - enabled: 1
+    path: Assets/Scenes/11round.unity
+    guid: 2bedc2b994dbed94f82e8506f28f3f13
+  - enabled: 1
+    path: Assets/Scenes/12round.unity
+    guid: 06140c61bf11aee45969bdb6174e46b2
+  - enabled: 1
+    path: Assets/Scenes/13round.unity
+    guid: d36e652cbe70b0047ac5dabc8851a492
+  - enabled: 1
+    path: Assets/Scenes/21round.unity
+    guid: b36a0f01208668e4ebc83eac67a5bf85
+  - enabled: 1
+    path: Assets/Scenes/22round.unity
+    guid: 521671ddf2ea93745bb09fe3032d0475
+  - enabled: 1
+    path: Assets/Scenes/23round.unity
+    guid: 6fd19133af3909d4ea48e81ddeb24ad3
+  - enabled: 1
+    path: Assets/Scenes/31round.unity
+    guid: 46520131a451e854fbf222b9ca1dd285
+  - enabled: 1
+    path: Assets/Scenes/32round.unity
+    guid: befd5949cad206b45acfbf9f735f9aff
+  - enabled: 1
+    path: Assets/Scenes/33round.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects: {}

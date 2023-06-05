@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4260422153039866017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4260422153039866020}
+  - component: {fileID: 4260422153039866023}
+  - component: {fileID: 4260422153039866022}
+  - component: {fileID: 4260422153039866021}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4260422153039866020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4260422153039866017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.28575093, y: 0.32302946, z: -0.29519472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4260422153039866023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4260422153039866017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2baa2d338bb93c74a9be233911389d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TaskPanel: {fileID: 0}
+  txt: {fileID: 1422043473639996401, guid: 3d5f0517ececd004ea7d20ac8530ef5d, type: 3}
+--- !u!114 &4260422153039866022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4260422153039866017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0419bd2c6645d4291ecb2b519b5f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeStart: 10
+  Timer: {fileID: 0}
+  Tasks: {fileID: 0}
+  Answers: {fileID: 0}
+  Results: {fileID: 0}
+  doneButton: {fileID: 0}
+  Score: 0
+  ResultScore: {fileID: 0}
+  txts: []
+  anss: []
+--- !u!114 &4260422153039866021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4260422153039866017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2626bc214f6b5744f8d5e3ba80ecf4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnswersPanel: {fileID: 0}
+  ans: {fileID: 7026525030238305609, guid: 611e2a0c0986c5944bee91940e293629, type: 3}
